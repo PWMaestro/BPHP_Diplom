@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+    font-size: 16px;
+}
+
+.create_new {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+
+    border: 2px solid #FFC901;
+    border-radius: 5px;
+    background-color: #1C1C1A;
+}
+
+.wrap_view {
+    width: 600px;
+    margin-right: 20px;
+}
+
+.wrap_view > textarea {
+    width: 100%;
+    min-height: 400px;
+    padding: 5px;
+
+    color: black;
+    font-size: 16px;
+
+    background-color: #B7B7B7;
+    border: 3px solid #FFC901;
+    border-radius: 5px;
+
+    resize: vertical;
+}
+
+.wrap_view > label {
+    display: block;
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.wrap_view > label:nth-child(n + 2) {
+    margin-top: 10px;
+}
+
+.control_bar {
+    width: 230px;
+    padding: 10px;
+
+    border: 2px solid #FFC901;
+    border-radius: 5px;
+}
+
+.bar_module:nth-child(n + 3) {
+    margin-top: 10px;
+}
+
+.bar_module:first-child:after {
+    content: "";
+
+    display: block;
+    margin: 10px;
+
+    border: 1px solid #FFC901;
+}
+
+.bar_module label {
+    display: block;
+}
+
+.bar_module:nth-child(2) label {
+    text-align: center;
+}
+
+.bar_module:nth-child(2) label:nth-child(n + 2) {
+    margin-top: 10px;
+}
+
+.bar_module .input_field {
+    width: 100%;
+    padding: 5px;
+
+    font-size: 16px;
+    text-align: center;
+    color: #FFC901;
+
+    background-color: #1C1C1A;
+    border: 2px solid #FFC901;
+    border-radius: 5px;
+}
+
+.bar_module > fieldset:nth-child(n + 2) {
+    margin-top: 10px;
+}
+
+.bar_module > button.btn:nth-child(n + 2) {
+    margin-top: 10px;
+}
+
+#btn_save {
+    border-color: #66ff66;
+}
+
+.btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    display: block;
+    width: 100%;
+    padding: 5px;
+
+    font-size: 16px;
+    text-align: center;
+    color: #FFC901;
+
+    background-color: #1C1C1A;
+    border: 2px solid #FFC901;
+    border-radius: 5px;
+}
+
+#btn_close {
+    border-color: red;
+}
+
+fieldset {
+    padding: 10px;
+
+    border: 2px solid #4671D5;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0 5px;
+
+    text-align: center;
+}

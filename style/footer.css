@@ -1,0 +1,12 @@
+.copyright {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 550px;
+
+	text-align: center;
+
+	border-top: 3px solid #FFC901;
+	border-bottom: 3px solid #FFC901;
+}

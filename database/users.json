@@ -1,0 +1,35 @@
+{
+    "dataTitle": {
+        "last_guid": 4
+    },
+    "dataArray": {
+        "o1": {
+            "login": "lud@mail.com",
+            "password": "153",
+            "name": "Людвиг",
+            "surname": "Барбаросса",
+            "role": 1
+        },
+        "o2": {
+            "login": "tomik@gmail.com",
+            "password": "kuznechik",
+            "name": "Том",
+            "surname": "Соер",
+            "role": 2
+        },
+        "o3": {
+            "login": "FFF@yandex.ru",
+            "password": "111",
+            "name": "Фридрих",
+            "surname": "Лобанский",
+            "role": 2
+        },
+        "o4": {
+            "login": "goga@mail.ru",
+            "password": "1516",
+            "name": "Эгида",
+            "surname": "Нервозная",
+            "role": 2
+        }
+    }
+}

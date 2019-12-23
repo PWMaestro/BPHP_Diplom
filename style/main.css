@@ -1,0 +1,15 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100vh;
+}
+
+main {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 550px;
+
+	border-top: 3px solid #FFC901;
+}

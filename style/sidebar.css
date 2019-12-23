@@ -1,0 +1,75 @@
+.sidebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+
+	width: 200px;
+
+	padding-top: 20px;
+}
+
+.tasks_nav {
+	list-style-type: none;
+}
+
+.bar_item {
+	position: relative;
+	z-index: 11;
+	left: -128px;
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 8px;
+
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #FFC901;
+	opacity: 0.5;
+	
+	transition: 0.3s;
+}
+
+#user {
+	justify-content: space-between;
+	background-color: red;
+}
+
+.bar_item:hover {
+	left: 0;
+
+	opacity: 1;
+}
+
+.bar_item > .value {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	color: #802020;
+}
+
+#name {
+	color: black;
+}
+
+#new_task {
+	background-color: #66ff66;
+}
+
+.icon_wrap {
+	height: 60px;
+	width: 60px;
+	margin: 5px;
+}
+
+.icon {
+	width: 100%;
+	height: 100%;
+}
